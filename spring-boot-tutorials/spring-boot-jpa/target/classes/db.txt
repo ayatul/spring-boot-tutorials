@@ -1,0 +1,14 @@
+ Field 	Type 	Null 	Key 	Default 	Extra 	
+user_id 	bigint(20)	NO 	PRI 	NULL	auto_increment
+active 	int(11)	NO 		NULL	
+dob 	datetime	YES 		NULL	
+grade 	int(11)	NO 		NULL	
+hint_answer 	varchar(255)	YES 		NULL	
+hint_question 	varchar(255)	YES 		NULL	
+password 	varchar(255)	YES 		NULL	
+primary_phone 	varchar(255)	YES 		NULL	
+user_email 	varchar(255)	YES 		NULL	
+user_name 	varchar(255)	YES 		NULL	
+user_type 	varchar(255)	YES 		NULL	
+created_at 	datetime	YES 		NULL	
+updated_at 	datetime	YES 		NULL	
